@@ -1,9 +1,9 @@
-package problems;
+package problems.trees;
 
 import org.junit.Test;
 
 import static org.junit.Assert.*;
-import static problems.SuperBalancedTree.isBalanced;
+import static problems.trees.SuperBalancedTree.isBalanced;
 
 public class SuperBalancedTreeTest {
 

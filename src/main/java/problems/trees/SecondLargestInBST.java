@@ -1,13 +1,13 @@
-package problems;
+package problems.trees;
 
 /*
-Write a method to see if a binary tree ↴ is "superbalanced" (a new tree property we just made up).
-A tree is "superbalanced" if the difference between the depths of any two leaf nodes ↴ is no greater than one.
+Problem:
 
-Here's a sample binary tree node class:
-*/
+Write a method to find the 2nd largest element in a binary search tree. ↴
 
-public class SuperBalancedTree {
+ */
+
+public class SecondLargestInBST {
 
     public static class BinaryTreeNode {
 
@@ -30,10 +30,11 @@ public class SuperBalancedTree {
         }
     }
 
-    public static boolean isBalanced(BinaryTreeNode treeRoot) {
-        // implement isBalanced
-        return false;
+    public static int findSecondLargest(BinaryTreeNode rootNode) {
+
+        // find the second largest item in the binary search trees
+
+
+        return 0;
     }
-
-
 }
